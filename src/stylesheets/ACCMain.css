@@ -1,0 +1,68 @@
+
+
+/* The hero image */
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(180deg, rgba(73,40,51,0.6) 0%, rgba(73,40,51,0.6) 100%), url("/public/f1-mclaren-screenshot.jpg");
+  
+    /* Set a specific height */
+    height: 500px;
+    width: 100%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Place text in the middle of the image */
+  .hero-text {
+    text-align: center;
+    color: white;
+    padding: 0px 8%;
+    font-size: 90px;
+    font-weight: 900;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .page-content {
+    padding: 0 8%;
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .coming-soon-box {
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  .page-content-full {
+    padding: 0;
+    width: 100%;
+    background-color: #492833;
+  }
+
+  .page-content-heading {
+    text-align: center;
+    padding-top: 60px;
+  }
+
+  /* If the screen size is 1023px wide or less, hide the element */
+@media only screen and (max-width: 1023px) {
+    .hero-image {
+        /* Set a specific height */
+        height: 250px;
+        margin-top: 84px;
+      }
+  }
+  
+  /* If the screen size is 799px wide or less, hide the element */
+  @media only screen and (max-width: 799px) {
+    .hero-image {
+      margin-top: 67px;
+    }
+  }

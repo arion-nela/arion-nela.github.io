@@ -1,0 +1,242 @@
+.division-menu-container {
+    display: flex;
+    column-gap: 24px;
+    row-gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 60px 0;
+}
+
+.division-menu-item {
+    color: #C18794;
+    cursor: pointer;
+}
+
+.division-menu-item:hover {
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.drivers-list-4 {
+    display: flex;
+    margin-bottom: 16px;
+    flex-direction: column;
+}
+
+.team-container-4 {
+display: flex;
+flex-direction: column;
+margin-bottom: 16px;
+}
+
+/* .team-member-box-4 {
+    padding: 8px 16px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+} */
+
+.rectangle {
+    width: 6px;
+    height: 42px;
+}
+
+.team-details-outer-4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 24px;
+}
+
+.team-details-container-4 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+    width: 100px;
+    align-items: center;
+}
+
+.team-image-4 {
+    height: 34px;
+    width: auto;
+}
+
+.team-image-driver-4 {
+    height: 42px;
+    width: 62px;
+    border-radius: 10px;
+}
+
+.team-name-4 {
+    width: 30px;
+}
+
+.team-name-driver-4 {
+    width: auto;
+}
+
+.logo-name-container-4 {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 8px;
+    align-items: center;
+}
+
+.flag-number-container-2 {
+    width: 90px;
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team-points-container-4 {
+    width: 235px;
+    display: flex;
+    column-gap: 20px;
+    justify-content: flex-end;
+    align-items: center;
+    row-gap: 8px;
+}
+
+.driver-flag {
+    height: 42px;
+    width: 62px;
+    border-radius: 10px;
+}
+
+.standing-separator {
+        border-top: 3px solid white;
+        border-left: none;
+        border-right: none;
+        width: 100%;
+        background-color: white;
+        margin-bottom: 16px;
+}
+
+.standing-separator-gold {
+    border-top: 2px solid rgba(255, 233, 130, 0.2);
+    border-bottom: 2px solid rgba(255, 233, 130, 0.2);
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    background-color: rgba(255, 233, 130, 0.2);
+    margin-bottom: 16px;
+}
+
+/* If the screen size is 1023px wide or less, hide the element
+@media only screen and (max-width: 1023px) {
+
+    .team-member-box {
+        flex-direction: column;
+        row-gap: 8px;
+    }
+
+    .team-details-outer {
+        flex-direction: column;
+        row-gap: 8px;
+    }
+
+    .rectangle {
+        display: none;
+    }
+
+    .team-details-container-2 {
+        width: auto;
+        justify-content: center;
+    }
+
+    .flag-number-container-2 {
+        width: auto;
+        justify-content: center;
+    }
+
+    .driver-name {
+        text-align: center;
+    }
+
+    .driver-flag {
+        width: 31px;
+        height: 21px;
+        border-radius: 0;
+    }
+
+    .team-image-driver {
+        width: 31px;
+        height: 21px;
+        border-radius: 0;
+    }
+
+
+    .team-name-2 {
+        width: auto;
+    }
+
+    .team-points-container {
+        flex-direction: column;
+    }
+
+  } */
+  
+  /* If the screen size is 799px wide or less, hide the element */
+  @media only screen and (max-width: 799px) {
+    .drivers-list-4 {
+        row-gap: 2px;
+    }
+
+    .team-name-driver-4 {
+        display: none;
+    }
+
+    .driver-name-4 {
+        font-size: 10.72px;
+    }
+
+    .team-name-4 {
+        width: 15px;
+        font-size: 10.72px;
+    }
+
+    .driver-points-4 {
+        font-size: 16px;
+    }
+
+    .team-image-4 {
+        height: 16px;
+        width: auto;
+    }
+
+    .team-image-driver-4 {
+        height: 21px;
+        width: 31px;
+        border-radius: 5px;
+    }
+
+    .team-details-outer-4 {
+        column-gap: 8px;
+    }
+
+    .team-details-container-4 {
+        display: flex;
+        flex-direction: row;
+        column-gap: 8px;
+        width: 55px;
+        align-items: center;
+    }
+
+    .team-points-container-4 {
+        width: 70px;
+        display: flex;
+        column-gap: 8px;
+        justify-content: space-between;
+        align-items: center;
+        row-gap: 8px;
+    }
+
+
+    
+    
+  }

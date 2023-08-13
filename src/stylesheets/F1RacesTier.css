@@ -1,0 +1,8 @@
+.race-tier-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}

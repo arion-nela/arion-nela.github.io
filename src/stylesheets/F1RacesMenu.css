@@ -1,0 +1,49 @@
+.races-menu-container {
+    display: flex;
+    padding: 60px 0;
+    flex-direction: column;
+    row-gap: 30px;
+    color: #C18794;
+    justify-content: center;
+}
+
+.season-container {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.tier-container {
+    font-size: 18.72px;
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+}
+
+.races-menu-link {
+    cursor: pointer;
+    padding: 8px;
+}
+
+.races-menu-link:hover {
+    color: white !important;
+    transition: 0.3s;
+}
+
+.races-menu-text {
+    color: white;
+    cursor: pointer;
+}
+
+/* If the screen size is 1023px wide or less, hide the element */
+@media only screen and (max-width: 1023px) {
+  
+  }
+  
+  /* If the screen size is 799px wide or less, hide the element */
+  @media only screen and (max-width: 799px) {
+    header {
+      
+      margin-top: -67px;
+    }
+  }

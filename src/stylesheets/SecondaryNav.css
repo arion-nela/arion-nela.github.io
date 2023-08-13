@@ -1,0 +1,29 @@
+.secondary-site-nav {
+    height: 83px;
+    border-bottom: 1px solid #492833;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #c18794;
+}
+
+  .secondary-navigation-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .secondary-navigation-link {
+    padding: 0px 24px;
+    height: 83px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .secondary-navigation-link:hover {
+    color: #ffffff;
+    cursor: pointer;
+  }
+  

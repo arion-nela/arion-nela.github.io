@@ -1,0 +1,12 @@
+.selectTeam {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.selectTeamContainer {
+    display: flex;
+    column-gap: 60px;
+    align-items: center;
+    padding: 8px 16px;
+}

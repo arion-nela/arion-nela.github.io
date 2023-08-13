@@ -1,0 +1,125 @@
+.next-race-container {
+    display: flex;
+    column-gap: 24px;
+    padding: 60px 8%;
+    background-color: #492833;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttons-container {
+    display: flex;
+    column-gap: 145px;
+    justify-content: center; /* Center the buttons horizontally */
+    align-items: center; /* Center the buttons vertically */
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.next-race-heading {
+    margin-bottom: 20px;
+}
+
+.view-all-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.view-all-link {
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+
+.next-race-box {
+    background-color: black;
+    border-radius: 10px;
+    padding: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.flag-img {
+    width: 60px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    border: 1px solid white;
+}
+
+.flag-img2 {
+    width: 60px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    border: 1px solid white;
+}
+
+.flag-img3 {
+    width: 60px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    border: 1px solid white;
+}
+
+.next-race-tier-container {
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 24px;
+    justify-content: center;
+    text-align: center;
+    margin: 34px 0;
+}
+
+.next-race-tier-left,
+.next-race-tier-center,
+.next-race-tier-right {
+    flex: 1; /* Added to evenly distribute space and center the elements */
+}
+
+
+.tier-button {
+    background-color: white;
+}
+
+.tier-button:hover {
+    background-color: #C18794;
+}
+
+.header-row {
+    display: none;
+}
+
+.race-title {
+    color: #C18794;
+}
+
+/* If the screen size is 1023px wide or less, hide the element */
+@media only screen and (max-width: 1023px) {
+    .next-race-tier-container {
+        flex-direction: column;
+        row-gap: 34px;
+    }
+
+    .header-row {
+        display: block;
+    }
+  
+  }
+  
+  /* If the screen size is 799px wide or less, hide the element */
+  @media only screen and (max-width: 799px) {
+    
+  }
+  

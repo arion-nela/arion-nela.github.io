@@ -1,0 +1,87 @@
+.home-page-content {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.home-page-hero-container {
+    width: 100%;
+    cursor: pointer;
+}
+
+.home-page-hero-container:hover {
+    text-decoration: underline;
+}
+
+.home-page-hero {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.home-page-hero:hover {
+    text-decoration: underline;
+}
+
+.home-page-hero-button {
+    margin-top: 16px;
+}
+
+.featured-section-container {
+display: flex;
+margin: 60px 0;
+justify-content: space-between;
+column-gap: 24px;
+}
+
+.featured-content {
+    display: flex;
+    flex-flow: column nowrap;
+    row-gap: 30px;
+    max-width: 548px;
+    width: 48%;
+    cursor: pointer;
+    height: auto;
+}
+
+.featured-content:hover {
+    text-decoration: underline;
+}
+
+.featured-image-box {
+    height: auto;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.featured-link {
+    color: #C18794;
+    text-decoration: underline;
+    margin-top:auto;
+}
+
+.featured-link:hover {
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/* If the screen size is 1023px wide or less, hide the element */
+@media only screen and (max-width: 1023px) {
+    .featured-section-container {
+        flex-direction: column;
+        row-gap: 30px;
+        }
+
+        .featured-content {
+          width: 100%;
+          max-width: 100%;
+        }
+        
+  
+  }
+  
+  /* If the screen size is 799px wide or less, hide the element */
+  @media only screen and (max-width: 799px) {
+  
+  }

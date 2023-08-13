@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "controls-2022"
+  },
+  "targets": {
+    "controls-2022": {
+      "hosting": {
+        "10controls": [
+          "controls-2022"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

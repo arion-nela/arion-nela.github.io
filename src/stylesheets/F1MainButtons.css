@@ -1,0 +1,40 @@
+.tier-grid-container-2 {
+    display: flex;
+    column-gap: 60px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 84px;
+    border-bottom: 1px solid #492833;
+    background-color: black;
+    padding: 0 8%;
+}
+
+.main-button-link {
+    font-size: 14px;
+    color: #C18794;
+    font-weight: 900;
+}
+
+.main-button-link:hover {
+    color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+ /* If the screen size is 1420px wide or less, hide the element */
+ @media only screen and (max-width: 1425px) {
+    .tier-grid-container-2 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .main-button-link {
+        font-size: 18.72px;
+        color: #C18794;
+        font-weight: 900;
+        padding: 16px 0;
+    }
+
+  }
+  

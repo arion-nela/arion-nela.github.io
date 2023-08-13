@@ -1,0 +1,98 @@
+.form-container {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 33.333%;
+  margin-left: auto;
+  margin-right: auto;
+  row-gap: 16px;
+  margin-top: 30px;
+}
+
+
+
+.form-heading-container {
+  text-align: center;
+}
+
+.form-step-description {
+  color: #c18794;
+  font-weight: 900;
+  width: auto;
+}
+
+.submit-button {
+    margin-top: 14px;
+}
+
+.discord-info-container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    align-items: center;
+    column-gap: 24px;
+}
+
+.discord-content-container {
+    width: 193px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.discord-logo-reg {
+    width: 193px;
+    height: auto;
+}
+
+.discord-join-button {
+    height: 68px;
+    width: 100%;
+    border-radius: 0;
+    background-color: #c18794;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.discord-join-button:hover {
+    background-color: white;
+}
+
+.confirmation-message {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.form-image {
+  width: 100%;
+  height: auto;
+}
+
+.form-dropdown {
+  
+}
+
+/* If the screen size is 1023px wide or less, hide the element */
+@media only screen and (max-width: 1023px) {
+    form {
+        width: 100%;
+      }
+
+      .discord-info-container {
+        flex-direction: column;
+    }
+  }
+  
+  /* If the screen size is 799px wide or less, hide the element */
+  @media only screen and (max-width: 799px) {
+    
+  }

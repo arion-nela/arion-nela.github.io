@@ -1,0 +1,25 @@
+footer {
+    padding: 120px 0 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.social-icons-footer {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+
+.footer-social {
+    width: 32px;
+    height: auto;
+}
+
+#credits {
+    text-align: center;
+    color: #c18794;
+    padding-top: 16px;
+}

@@ -1,0 +1,126 @@
+.division-menu-container {
+    display: flex;
+    column-gap: 24px;
+    row-gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 60px 0;
+}
+
+.division-menu-item {
+    color: #C18794;
+    cursor: pointer;
+}
+
+.division-menu-item:hover {
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.drivers-list {
+    display: flex;
+    row-gap: 16px;
+    flex-direction: column;
+}
+
+.team-container {
+display: flex;
+flex-direction: column;
+row-gap: 4px;
+}
+
+.team-member-box-acc {
+    background-color: rgba(193, 135, 148, 0.2);
+    padding: 8px 16px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rectangle {
+    width: 6px;
+height: 42px;
+}
+
+.team-details-outer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.team-details-container-acc {
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+    width: 75px;
+    align-items: center;
+}
+
+.team-image {
+    height: 34px;
+    width: auto;
+}
+
+.team-name {
+
+}
+
+.flag-number-container-acc {
+    width: 300px;
+    display: flex;
+    column-gap: 20px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.driver-flag {
+    height: 42px;
+    width: 62px;
+    border-radius: 10px;
+}
+
+/* If the screen size is 1023px wide or less, hide the element */
+@media only screen and (max-width: 1023px) {
+
+    .team-member-box-acc {
+        flex-direction: column;
+        row-gap: 8px;
+    }
+
+    .team-details-outer {
+        flex-direction: column;
+        row-gap: 8px;
+    }
+
+    .rectangle {
+        display: none;
+    }
+
+    .team-details-container-acc {
+        width: auto;
+        justify-content: center;
+    }
+
+    .flag-number-container-acc {
+        width: auto;
+        justify-content: center;
+    }
+
+    .driver-name {
+        text-align: center;
+    }
+
+    .driver-flag {
+        width: 31px;
+        height: 21px;
+        border-radius: 0;
+    }
+
+  }
+  
+  /* If the screen size is 799px wide or less, hide the element */
+  @media only screen and (max-width: 799px) {
+    
+  }

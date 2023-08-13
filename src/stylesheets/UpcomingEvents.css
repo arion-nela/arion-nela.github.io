@@ -1,0 +1,124 @@
+.upcoming-container {
+    display: flex;
+    column-gap: 24px;
+    padding: 60px 8%;
+    background-color: #492833;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+    row-gap: 30px;
+}
+
+.upcoming-heading {
+    margin-bottom: 20px;
+}
+
+.event-heading-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.view-all-link {
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+
+.event-box {
+    background-color: black;
+    border-radius: 10px;
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    row-gap: 24px;
+}
+
+.event-type-container {
+    border-right: 1px dashed #FFFFFF;
+    text-align: left;
+    width: 170px;
+    row-gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.event-details-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.event-logo{
+     height: 32px;
+     width: auto;
+     text-align: center;
+}
+
+.event-type-name{
+    font-weight: 700;
+    text-align: left;
+}
+
+.event-main-header{
+    font-weight: 900;
+}
+
+.event-secondary-header{
+    font-weight: 700;
+}
+
+
+
+.tier-button {
+    background-color: white;
+}
+
+.tier-button:hover {
+    background-color: #C18794;
+}
+
+.header-row {
+    display: none;
+}
+
+
+/* If the screen size is 1023px wide or less, hide the element */
+@media only screen and (max-width: 1023px) {
+    
+
+    .header-row {
+        display: block;
+    }
+
+    .event-box{
+        flex-direction: column;
+        row-gap: 16px;
+    }
+
+    .event-type-container {
+        border-bottom: 1px dashed #FFFFFF;
+        border-right: none;
+        width: 100%;
+        padding-bottom: 16px;
+        text-align: center;
+    }
+
+    .event-type-name{
+        text-align: center;
+    }
+    
+  
+  }
+  
+  /* If the screen size is 799px wide or less, hide the element */
+  @media only screen and (max-width: 799px) {
+    
+  }

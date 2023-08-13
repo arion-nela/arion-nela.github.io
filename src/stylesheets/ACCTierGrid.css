@@ -1,0 +1,98 @@
+.tier-grid-container {
+    display: flex;
+    column-gap: 24px;
+    row-gap: 24px;
+    padding: 60px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-acc {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 60px;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    background-image: linear-gradient(180deg, rgba(193,135,148,1) 0%, rgba(193,135,148,0.8) 100%), url("/public/acc-screenshot-2.jpg");
+}
+
+.left-grid{
+    background-image: linear-gradient(180deg, rgba(193,135,148,1) 0%, rgba(193,135,148,0.8) 100%), url("/public/f1-ferrari-screenshot-1.jpg");
+}
+
+.right-grid{
+    background-image: linear-gradient(180deg, rgba(193,135,148,1) 0%, rgba(193,135,148,0.8) 100%), url("/public/f1-ferrari-screenshot-2.jpg");
+}
+
+.grid-content {
+    width: 50%;
+}
+
+.grid-heading-acc {
+    font-size: 60px;
+    color: black;
+}
+
+.grid-subheading {
+    font-size: 32px;
+    color: black;
+}
+
+.grid-text {
+    font-size: 24px;
+    color: black;
+}
+
+.grid-btn-container {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+}
+
+.grid-button {
+    background-color: black;
+    color: white;
+    margin-top: 16px;
+}
+
+.grid-button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+ /* If the screen size is 1420px wide or less, hide the element */
+ @media only screen and (max-width: 1425px) {
+    .tier-grid-container {
+        flex-wrap: wrap;
+    }
+
+    .grid {
+        width: 100%;
+    }
+  }
+
+  /* If the screen size is 1023px wide or less, hide the element */
+@media only screen and (max-width: 1023px) {
+    
+    .grid-heading-acc {
+        font-size: 32px;
+    }
+    
+    .grid-subheading {
+        font-size: 32px;
+    }
+    
+    .grid-text {
+        font-size: 18.72px;
+    }
+    
+  
+  }
+  

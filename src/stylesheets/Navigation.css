@@ -1,0 +1,153 @@
+.main-site-nav {
+  height: 83px;
+  border-bottom: 1px solid #492833;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #C18794;
+  background-color: black;
+}
+
+.main-navigation-content {
+  display: flex;
+  column-gap: 60px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-navigation-link {
+  padding: 8px 0;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+  width: auto;
+}
+
+.main-navigation-link:hover {
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.main-navigation-link:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 51%;
+  right: 51%;
+  bottom: 0;
+  background: white;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.main-navigation-link:hover:before,
+.main-navigation-link:focus:before,
+.main-navigation-link:active:before {
+  left: 0;
+  right: 0;
+}
+
+.border-box {
+  width: 83px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.border-box-left {
+  border-right: 1px solid #492833;
+}
+
+.border-box-right {
+  border-left: 1px solid #492833;
+}
+
+.navigation-logo {
+  width: 46px;
+  height: auto;
+  cursor: pointer;
+}
+
+.side-nav {
+  width: 83px;
+  margin-top: -84px;
+  z-index: -1;
+  height: 100vh;
+}
+
+.side-nav-left {
+  border-right: 1px solid #492833;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: absolute;
+  left: 0;
+  top: 84px;
+  flex-direction: row;
+}
+
+.side-nav-right {
+  border-left: 1px solid #492833;
+  position: absolute;
+  right: 0;
+  top: 84px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.social-icons-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  padding-bottom: 30px;
+}
+
+.discord-container {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+}
+
+.discord-logo-container-left {
+  margin-top: 114px;
+  padding-bottom: 30px;
+}
+
+.discord-logo {
+  height: auto;
+  width: 32px;
+}
+
+/* If the screen size is 1023px wide or less, hide the element */
+@media only screen and (max-width: 1023px) {
+  .side-nav {
+    display: none;
+  }
+}
+
+/* If the screen size is 799px wide or less, hide the element */
+@media only screen and (max-width: 799px) {
+  .main-site-nav {
+    height: 66px;
+  }
+  
+  .main-navigation-content {
+    display: none;
+  }
+}
