@@ -36,27 +36,6 @@ function F1Prize () {
   </table>
             </div>
             <div className="f1-prize-container">
-            <h2>Tier B Drivers</h2>
-            <table className="prize-table">
-    <tr>
-      <th className="prize-header">Place</th>
-      <th className="prize-header">$ USD</th>
-    </tr>
-    <tr className="prize-winner">
-      <td className="prize-data">P1</td>
-      <td className="prize-data">$30</td>
-    </tr>
-    <tr className="prize-runner-up">
-      <td className="prize-data">P2</td>
-      <td className="prize-data">$20</td>
-    </tr>
-    <tr className="prize-third">
-      <td className="prize-data">P3</td>
-      <td className="prize-data">$10</td>
-    </tr>
-  </table>
-            </div>
-            <div className="f1-prize-container">
             <h2>Constructors</h2>
             <table className="prize-table">
     <tr>
@@ -74,6 +53,23 @@ function F1Prize () {
       <td className="prize-data">Tier B</td>
       <td className="prize-data">$10 ($5 each)</td>
     </tr> */}
+  </table>
+  </div>
+            <div className="f1-prize-container">
+            <h2>BONUSES</h2>
+            <table className="prize-table">
+    <tr>
+      <th className="prize-header">TYPE</th>
+      <th className="prize-header">$ USD</th>
+    </tr>
+    <tr className="prize-winner">
+      <td className="prize-data">RACE WIN</td>
+      <td className="prize-data">$5</td>
+    </tr>
+    <tr className="prize-runner-up">
+      <td className="prize-data">POLE POSITION</td>
+      <td className="prize-data">$2</td>
+    </tr>
   </table>
             </div>
           </div>
