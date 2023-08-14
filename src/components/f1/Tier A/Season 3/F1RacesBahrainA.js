@@ -5,7 +5,7 @@ import F1RaceResult from '../../F1RaceResult'
 export default function F1RacesBahrainA3 () {
   return (
     <div className="page-content">
-        <h1 className="page-content-heading">Japan</h1>
+        <h1 className="page-content-heading">Bahrain</h1>
         <h2 className="race-subtext">Tier A - Season 3</h2>
         <h3 className="race-subtext">Round 1 of 10</h3>
         <table className="results-table">
